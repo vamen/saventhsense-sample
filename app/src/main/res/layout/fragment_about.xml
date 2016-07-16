@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.vivekbalachandra.android.saventsencesample.fragment.About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#e8433f3f"
+                    android:text="@string/aboutsaventsense"
+                    android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+                    android:textSize="16dp" />
+
+            </android.support.v7.widget.CardView>
+
+         <TextView
+             android:id="@+id/tag"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="Our Management Team"
+             android:layout_below="@+id/about"
+             android:textStyle="bold"
+             android:gravity="center"
+             android:textSize="20dp"
+             android:layout_marginTop="5dp"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/managemen1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-20dp"
+                card_view:cardBackgroundColor="#23000000"
+                card_view:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="vinod prabhu"
+                        android:textColor="#e82d2828"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/vinodePrabhu"
+                        android:textColor="#e82d2828" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/vinodePrabhuRole"
+                        android:textColor="#e82d2828" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/managemen1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tag"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/vinodprabh"
+                app:civ_border_color="#c1bdbd"
+                app:civ_border_width="4dp" />
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/managemen2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-20dp"
+                card_view:cardBackgroundColor="#23000000"
+                card_view:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Ravi Theja"
+                        android:textColor="#e82d2828"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/ravi"
+                        android:textColor="#e82d2828" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/raviRole"
+                        android:textColor="#e82d2828" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/managemen2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/card1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ravi"
+                app:civ_border_color="#c1bdbd"
+                app:civ_border_width="4dp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/managemen3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-20dp"
+                card_view:cardBackgroundColor="#23000000"
+                card_view:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Ananth Kamath"
+                        android:textColor="#e82d2828"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/Ananth"
+                        android:textColor="#e82d2828" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/ananthRole"
+                        android:textColor="#e82d2828" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/managemen3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/card2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ananth"
+                app:civ_border_color="#c1bdbd"
+                app:civ_border_width="4dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/managemen4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-20dp"
+                card_view:cardBackgroundColor="#23000000"
+                card_view:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Ganesh Shankar"
+                        android:textColor="#e82d2828"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/ganesh"
+                        android:textColor="#e82d2828" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/ganeshRole"
+                        android:textColor="#e82d2828" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/managemen4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/card3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ganesh"
+                app:civ_border_color="#c1bdbd"
+                app:civ_border_width="4dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

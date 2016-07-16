@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">saventsencesample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="drawer_open" translatable="false">open</string>
+    <string name="drawer_close" translatable="false">close</string>
+    <string name="companyname" translatable="false">Seventh Sense</string>
+    <string name="aboutsaventsense" translatable="false"><b>Indian Institute of Management Bangalore (IIM B) alumni founded and manage this rapidly growing Talent Solutions company.</b>\n<p>Seventh Sense believes that Talent is the most critical factor that differentiates a great company from a good one.</p><p> Therefore we focus our energies on meeting all the skill development needs of our partner colleges and clients.</p>\nOur offerings are customizable and meet the ever changing needs of our clients.\n We count among our clients some of the top 100 colleges and top 50 companies in India and have served clients across the country.</string>
+    <string name="vinodePrabhu" translatable="false">"completed his MBA from IIM Bangalore and possesses significant and varied experience of working for Fortune 500 and multi-billion dollar MNCs".</string>
+    <string name="vinodePrabhuRole">Vinod leads the Seventh Sense Group and manages it on a day to day basis</string>
+    <string name="ravi"><![CDATA[Ravi’s expertise lie in a multitude of fields such as education, management, technology & software, which drives him to provide value based education to students as well as corporate professionals]]></string>
+    <string name="raviRole">Ravi Theja leads the Educational Services of Seventh Sense</string>
+    <string name="Ananth">Ananth Kamath has C suite level experience at multi-billion dollar companies; the latest was as CIO at Gammon Ltd, a construction giant. He also has more than 17 years of leadership experience in world class MNCs.</string>
+    <string name="ananthRole">Ananth Kamath manages the Corporate Learning and Training Solutions of Seventh Sense.</string>
+    <string name="ganesh">Ganesh Shankar completed his masters from the Indian Institute of Science (IISc) and went on to work for General Electric (GE) in their cutting-edge Aviation as well as their Energy Divisions.</string>
+    <string name="ganeshRole">Ganesh manages the Governmental Services of Seventh Sense.</string>
+</resources>
